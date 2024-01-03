@@ -1,0 +1,24 @@
+.home-page{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 48vw;
+    padding-top: 5%;
+
+}
+
+@media(max-width:350px){
+    .home-page{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vw;
+        padding-top: 5%;
+    }
+    
+}
+

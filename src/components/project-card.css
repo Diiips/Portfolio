@@ -1,0 +1,126 @@
+.project{
+    display: flex;
+    width:25vw;
+    height: 15vw;
+    background: radial-gradient(circle at -1% 70%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%);
+    justify-content: space-between;
+    /* background-color:blue ; */
+    
+}
+
+.project:hover .project-img {
+    width:0%;
+    height:0%;
+    transition: 1s ease;
+}
+
+.project:hover .project-info{
+    width: 100%;
+    transition: 1s ease;   
+    border-radius: 0; 
+} 
+
+.project-info{
+    /* display: block; */
+    width: 12vw;
+    height: 100%;
+    border-radius: 0px 20% 20% 0px;
+    /* background-color: pink; */
+    background: radial-gradient(circle at 0% 50%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%);
+    box-shadow: 0.4vw 0vw  rgb(69, 1, 118);     
+    transition: 1s ease;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    position:absolute;
+    visibility: visible;
+    transition: 1s ease;
+    width:100%;
+    height: 100%;
+    font-family:'Signika Negative';
+    /* background-color: yellow; */
+}
+.title h4{
+    color: white;
+    font-size: 2vw;
+    text-align: center;
+    padding:0px;
+    margin: 0px;
+}
+.title p{
+    color: white;
+    font-size: 1vw;
+}
+.project-img{
+    width:40%;
+    height: 60%;
+    align-self: center;
+    border-radius: 10px;
+    transform: translateX(-18%);
+    transition: 1s ease;
+    object-fit: cover;
+}
+.project-btn{
+    text-transform: uppercase;
+    background-color: blueviolet;
+    color: aqua;
+    padding: 5%;
+    border: none;
+    outline: none;
+    border-radius: 0.5vw;
+    font-family:'Signika Negative';
+}
+.desc{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    position:absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+    font-family:'Signika Negative';
+    /* background-color: pink; */
+}
+.desc h5{
+    color: white;
+    /* background-color: yellow; */
+    font-size: 2vw;
+    margin: 0;
+    padding: 0;
+}
+
+.desc p{
+    padding: 2%;
+    /* text-align: justify; */
+    margin: 2vw;
+    color: white;
+    text-align: center;
+    font-size: 1vw;
+
+}
+
+.project:hover .project-info .desc{
+    visibility:visible;
+    transition: 1s ease-in;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(30deg,#b436f8,#714bef);
+}
+
+.project:hover .project-info .title{
+    visibility:hidden;
+    transition: 0s ease;
+}

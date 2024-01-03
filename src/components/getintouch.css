@@ -1,0 +1,77 @@
+.contactme-left{
+    width: 100%;
+    height: 100%;
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    /* align-items:flex-end; */
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* background-color: orange; */
+}
+.getintouch-intro{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height:35%;
+    /* background-color:palevioletred; */
+    /* align-items: center; */
+}
+.getintouch-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    width: 80%;
+    height: 30%;
+    /* background-color: navy; */
+}
+.getintouch-logo h1{
+    font-size: 3vw;
+    padding-bottom: 1vw;
+    color: #5a2cf1;
+    font-family: 'Leckerli One', cursive;
+}
+.getintouch-logo img{
+    width: 15%;
+    height: 15%;
+}
+.getintouch-intro p{
+    font-size: 1.89vw;
+    font-family:'Signika Negative';
+    /* background-color: yellow; */
+    margin-top: 0.5vw;
+}
+
+.contactmeinfo{
+    /* background-color: blue; */
+    font-family:'Signika Negative';
+    width: 80%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+.phone-email{
+    /* background-color: rgb(191, 221, 42); */
+    /* gap: 1vw; */
+    line-height: 2vw;
+    width: 80%;
+    height: 30%;
+}
+.my-contact-email{
+    /* background-color: skyblue; */
+    font-size: 1.4vw;
+    font-weight:lighter;
+}
+.phone-email-info{
+    /* background-color: salmon; */
+    font-size: 1.4vw;
+    font-weight:bolder;
+}
+.getintouch-socialmedia{
+    width: 85%;
+    /* background-color: pink; */
+}
+

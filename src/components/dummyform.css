@@ -1,0 +1,76 @@
+.form-component{
+    width:100%;
+    height:100%;
+    flex-basis: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family:'Signika Negative';
+    /* background-color:crimson; */
+    gap: 3%;
+}
+.form-component input{
+    width: 80%;
+    height: 11%;
+    color: white;
+    outline: none;
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    border: 0.3vw solid #2904a1;
+    background: transparent;
+    transition: 0.1s ease;
+    /* padding-left: 1vw; */
+    font-family:'Signika Negative';
+}
+.form-component input::placeholder{
+    color: white;
+    padding-left: 1vw;
+}
+.form-component input:focus{
+    border: 0.3vw solid #9b9bfd;
+}
+.form-component textarea{
+    width:80%;
+    height: 23%;
+    color: white;
+    outline: none;
+    font-size: 1.3vw;
+    border-radius: 0.5vw;
+    border: 0.3vw solid #2904a1;
+    background: transparent;
+    transition: 0.1s ease;
+    /* padding-left: 1vw; */
+    font-family:'Signika Negative';
+    /* text-align:inherit; */
+}
+.form-component textarea:focus{
+    border: 0.3vw solid #9b9bfd;
+    
+}
+.form-component textarea::placeholder{
+    color: white;
+    padding-top: 0.5vw;
+    padding-left: 1vw;
+    
+}
+.form-component button{
+    width: 80%;
+    height: 11%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 0.5vw;
+    border: 0.3vw solid #2904a1;
+    background-color:#2904a1;
+    font-family:'Signika Negative';
+    color: white;
+    outline: none;
+    /* padding: 0vw 20vw; */
+    /* margin: 0vw 10vw; */
+    /* background-color: pink; */
+}

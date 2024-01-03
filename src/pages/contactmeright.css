@@ -1,0 +1,127 @@
+************** */
+.contactme-right{
+    /* width:60%; */
+    
+    
+}
+.contactme-form{
+    width: 60vw;
+    height:40vw;
+    background-color:crimson;
+    display: flex;
+    align-items: center;
+    place-content: center;
+    justify-content: center;
+    /* flex-flow: column; */
+    gap: 2vw;
+    /* margin-top: 5vw; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* background-color: pink; */
+    /* padding-left: 5vw; */
+}
+.inputarea{
+
+    position: relative;
+    /* height: 50px;*/
+    line-height: 60px;  
+    
+    width: 45vw;
+    height: 5vw;
+   
+}
+input{
+    position: absolute;
+    width: 45vw;
+    height: 5vw;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    padding: 0px 30px;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 3px solid #2904a1;
+    background: transparent;
+    transition: 0.1s ease;
+
+}
+.inputarea label{
+    
+    position: absolute;
+    /* background:#22028d transparent; */
+    /* background-color: pink; */
+    font-size: 17px;
+    color: white;
+    padding: 0 10px;
+    margin: 0 20px;
+    transition: 0.2s ease;
+
+}
+.messagearea{
+
+    width: 45vw;
+    height: 12vw;
+    position: relative;
+
+}
+textarea{
+    width: 45vw;
+    height: 8vw;
+    outline: none;
+    font-size: 20px;
+    color: white;
+    line-height: 20px;
+    border-radius: 10px;
+    border: 3px solid #2904a1;
+    background: transparent;
+    transition: 0.1s ease;
+    padding: 35px 30px;
+    /* background-color: yellow; */
+
+}
+.messagearea label{
+    /* list-style: 50px; */
+    position: absolute;
+    font-size: 17px;
+    color: white;
+    padding: 10px 10px;
+    margin: 0 20px;
+    /* background-color: #1c2841; */
+    transition: 0.2s ease;
+}
+
+.contactme-form button{
+    /* background-color: pink; */
+    margin-top: 2vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 5vw;
+    outline: none;
+    font-size: 17px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #2904a1;
+    background-color: #5a2cf15a;
+    transition: 0.1s ease;
+    /* z-index: 1111; */
+    cursor: pointer;
+    /* margin-top: 3vw; */
+}
+
+input:focus,
+input:valid{
+    color: white;
+     z-index: 1111;
+}
+input:focus + label,
+input:valid + label{
+   
+    color: #5a2cf1;
+    font-weight: 700;
+    height: 40px;
+    line-height: 30px;
+    padding: 0 12px;
+    transform: translate(-15px,-24px) scale(0.90);
+}

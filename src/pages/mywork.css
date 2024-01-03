@@ -1,0 +1,20 @@
+.project-page{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); 
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    height: 100%;
+    gap: 2vw;
+    backdrop-filter: blur(100%);
+    margin: 5% 0;
+    /* background-color: yellow; */
+}
+.mywork-title h1{ 
+    font-size: 4vw;
+    color: white;
+    font-family: 'Leckerli One', cursive;
+    margin: 3vw;
+    /* background-color: yellow; */
+}

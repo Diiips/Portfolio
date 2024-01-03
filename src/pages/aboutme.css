@@ -1,0 +1,82 @@
+
+.about-me-content-1{
+    width: 100vw;
+    height: 44vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 1vw; */
+}
+
+
+.about-me-content-1 h1{
+    font-size: 4.5vw;
+    /* background-color: yellow; */
+    color: aliceblue;
+    /* margin-top: 1vw; */
+    margin: 0;
+    padding: 1vw 1vw;
+    font-family: 'Leckerli One', cursive;
+    /* font-family:'Signika Negative' ; */
+    font-style: unset;
+}
+.abt-me-box{
+    width: 40vw;
+    height: 20vw;
+    position: relative;
+    margin-top: 2.9vw;
+    border-radius: 0.7vw;
+    /* transition: all 0.2s linear; */
+    transform: translate(0%,0%);
+    /* background-color: yellow; */
+}
+.abt-me-text{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1vw 3vw;
+    /* for making blur block-size */
+    background: rgba(235,0,255,0.11);
+    backdrop-filter: blur(50px);
+    line-height: 2vw;
+    text-align:justify;
+}
+.abt-me-text p{
+    text-align: center;
+    font-size: 1.4vw;
+    color: white;
+    font-family:'Signika Negative';
+    font-weight:lighter;
+}
+
+.abt-me-box::before{
+    content: '';
+    width: 12vw;
+    height: 12vw;
+    /* background: #f41b75; */
+    background:linear-gradient(30deg,#b436f8,#714bef);
+    border-radius: 0.7vw;
+    position:absolute;
+    left: -4vw;
+    top: -4vw;
+    z-index: -1;
+}
+.abt-me-box::after{
+    content: '';
+    width: 13vw;
+    height: 13vw;
+    /* background:#419aff; */
+    background:linear-gradient(30deg,#714bef,#b436f8);
+    border-radius:50%;
+    position: absolute;
+    right: -10vw;
+    bottom: -6vw;
+    z-index: -1;
+}
+
+
+
+
