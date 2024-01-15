@@ -8,10 +8,8 @@
     /* margin-top: 1vw; */
 }
 
-
 .about-me-content-1 h1{
     font-size: 4.5vw;
-    /* background-color: yellow; */
     color: aliceblue;
     /* margin-top: 1vw; */
     margin: 0;
@@ -20,6 +18,7 @@
     /* font-family:'Signika Negative' ; */
     font-style: unset;
 }
+
 .abt-me-box{
     width: 40vw;
     height: 20vw;
@@ -76,7 +75,77 @@
     bottom: -6vw;
     z-index: -1;
 }
+@media (max-width:700px){
+    .about-me-content-1{
+        width: 80vw;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* background-color: red; */
+    }
+    .about-me-content-1 h1{
+        font-size: 5.9vh;
+        font-weight: bolder;
+    }
+    .abt-me-box{
+        width: 80vw;
+        height: 80vh;
+        position: relative;
+        margin-top: 3vh;
+        border-radius: 0.7vw;
+        transform: translate(0%,0%);
+        /* background-color: #2904a1; */
+    }
+    
+.abt-me-text{
+    width:100%;
+    height: 100%;
+    border-radius: 0.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding:1vw 3vw; */
+    /* for making blur block-size */
+    background: rgba(235,0,255,0.11);
+    backdrop-filter: blur(50px);
+    line-height: 4vh;
+    text-align: center;
+    /* text-align:justify; */
+}
+.abt-me-text p{
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+    font-family:'Signika Negative';
+    font-weight:lighter;
+}
+    .abt-me-box::before{
 
+        content: '';
+        width: 75vw;
+        height: 10vw;
+        /* background:#419aff; */
+        background:linear-gradient(30deg,#714bef,#b436f8);
+        /* border-radius:50%; */
+        position: absolute;
+        left: 6vw;
+        top: -3vw;
+        z-index: -1;
+    }
+    .abt-me-box::after{
+        content: '';
+        width: 75vw;
+        height: 15vw;
+        /* background: #f41b75; */
+        background:linear-gradient(30deg,#b436f8,#714bef);
+        border-radius: 0.7vw;
+        position:absolute;
+        right: -1vw;
+        bottom: -5vw;
+        z-index: -1;
+    }
+}
 
 
 

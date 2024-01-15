@@ -12,7 +12,7 @@ import HomePage from './pages/homepage.js';
 
 
 
-function App() {
+function App(){
   return (
     <div className='App'>
 

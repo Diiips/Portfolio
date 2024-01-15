@@ -2,18 +2,18 @@ import './navbar.css'
 import React,{useState} from 'react';
 import{Link} from 'react-scroll'
 import {GiHamburgerMenu} from 'react-icons/gi';
-// const Bar = ()=>{
-//   const [showMediaIcons, setShowMediaIcons] = useState(false);
-// }
+
+
+
 export default function Navbar() {
-    
+  const [showMediaIcons, setShowMediaIcons] = useState(false);
     return (
-      <div class="nav">
+      <div className="nav">
         <h2>Diiips</h2>
 
-        <div class="nav-2">
+        <div className="nav-2">
 
-          <h4 class="active"><Link
+          <h4 className="active"><Link
                 to='home'
                 spy={true}
                 smooth={true}
@@ -59,9 +59,9 @@ export default function Navbar() {
         </div>
 
         <div className='menu'>
-            {/* <a href='#' onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <a href='#' onClick={() => setShowMediaIcons(!showMediaIcons)}>
               <GiHamburgerMenu/>
-            </a> */}
+            </a>
         </div>
         {/* <div class="menu-btn">
           <i class="ri-menu-3-fill"><span>INTR</span></i>

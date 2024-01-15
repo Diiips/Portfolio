@@ -7,3 +7,14 @@
     /* height: max-content; */
     /* background-color:brown; */
 }
+@media (max-width:700px){
+    .contactme-components-page{
+        width: 88vw;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+        /* flex-direction:column-reverse; */
+        /* background-color: pink; */
+    } 
+}

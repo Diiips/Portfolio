@@ -80,12 +80,13 @@ background-color: rebeccapurple;
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 } */
 
-@media (max-width:450px){
+@media (max-width:750px){
     .nav{
         width: 100vw;
+        height: 15vw;
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content:space-around;
     margin: 0;
     padding: 0 100px;
     }
@@ -93,10 +94,11 @@ background-color: rebeccapurple;
         display: flex;
     align-items: center;
     justify-content:flex-start;
+    font-size: 5vw;
     width: 25%;
     height: 100%;
     }
-    .nav.nav-2{
+    .nav-2{
         display: none;
         /* margin-top: 1vw;
         background-color: pink;
@@ -104,8 +106,18 @@ background-color: rebeccapurple;
     }
     .menu{
         display:block;
-        /* width: 5vw;
-        height: 2vw; */
+        /* justify-content: center; */
+        /* align-items: center; */
+        cursor: pointer;
+       width: 5vw;
+       height: 5vw;
+    }
+    .menu a{
+        width: 5vw;
+        height: 5vw;
+        font-size: 5vw;
+        color: white;
+        font-weight: 500;
     }
     .menu:hover > a{
         transform-origin:left;

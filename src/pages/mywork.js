@@ -25,11 +25,11 @@ export default function Mywork(){
         image:book},
 
         {title:"PROFILE APP",
-        subtitle: 'aksdjkdh',
+        subtitle: 'Come & Visite to our profile',
         image:profile},
 
         {title:"SUBSCAN",
-        subtitle: 'aksdjkdh',
+        subtitle: 'Subscription tracker App',
         image:subscan},
 
         {title:"FACE PAY",

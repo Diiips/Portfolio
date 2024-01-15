@@ -9,13 +9,13 @@ export default function Getintouch(){
             <div class="getintouch-logo">
               <h1>Get In Touch <img src={getintouchimg} alt="getintouchimg" /></h1>
             </div>
-              
             <p>
               I'm always open to collaborate on a project or hear about an
               opportunity!
             </p>
-
           </div>
+              
+
 
           <div class="contactmeinfo">
 
@@ -37,7 +37,7 @@ export default function Getintouch(){
               </div>
             </div>   
             <div class='getintouch-socialmedia'>
-            <Socialmedia/>
+            {/* <Socialmedia/> */}
             </div> 
           </div>
         </div>

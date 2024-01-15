@@ -5,19 +5,20 @@
     align-items: center;
     width: 100vw;
     height: 48vw;
-    /* padding-top: 5%; */
+    /* padding-top: 3%; */
 
 }
 
-@media(max-width:350px){
+@media(max-width:700px){
     .home-page{
         display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
+        justify-content:end;
         align-items: center;
         width: 100vw;
-        height: 100vw;
-        padding-top: 5%;
+        height: 100%;
+        /* padding-top: 5%; */
+        /* background-color: blue; */
     }
     
 }

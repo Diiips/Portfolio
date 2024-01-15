@@ -5,7 +5,6 @@
     background: radial-gradient(circle at -1% 70%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%);
     justify-content: space-between;
     /* background-color:blue ; */
-    
 }
 
 .project:hover .project-img {
@@ -22,7 +21,7 @@
 
 .project-info{
     /* display: block; */
-    width: 12vw;
+    width: 40%;
     height: 100%;
     border-radius: 0px 20% 20% 0px;
     /* background-color: pink; */
@@ -110,7 +109,6 @@
     font-size: 1vw;
 
 }
-
 .project:hover .project-info .desc{
     visibility:visible;
     transition: 1s ease-in;
@@ -123,4 +121,41 @@
 .project:hover .project-info .title{
     visibility:hidden;
     transition: 0s ease;
+}
+@media(max-width:700px){
+    .project{
+        width:90vw;
+        height: 60vw; 
+    }
+    .title h4{
+        color: white;
+        font-size: 3vh;
+        text-align: center;
+        padding:0px;
+        margin: 0px;
+    }
+    .title p{
+        color: white;
+        font-size: 2vh;
+        text-align: center;
+    }
+    .desc h5{
+        color: white;
+        /* background-color: yellow; */
+        font-size: 2.5vh;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .desc p{
+        padding: 2%;
+        /* text-align: justify; */
+        margin: 2vw;
+        color: white;
+        text-align: center;
+        font-size: 2vh;
+    
+    }
+    
+
 }

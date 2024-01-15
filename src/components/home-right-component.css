@@ -6,6 +6,7 @@
     flex-basis: 40%;
     align-items: center;
     justify-content: center;
+    /* min-height:300px; */
     /* background-color: red; */
 }
 .right{
@@ -39,21 +40,27 @@
     }
 }
 
-@media(max-width:350px){
+@media(max-width:700px){
     .img-block{
-        width:47%;
-        height:50%;
+        /* padding-top: 12vw; */
+        display: flex;
+        align-self: center;
+        /* justify-content: flex-end; */
+        /* justify-self: center; */
+        /* min-height: 45vh; */
+        width:70%;
+        height:70%;
         /* background-color: orange; */
     }
     
 .right{
+    /* min-height: 4vh; */
     height: 100%;
     width: 100%;
     display: flex;
     align-items:center;
     justify-content:center;
-    margin-top: 0vw;
-    /* background-color: yellow; */
+    /* background-color: blueviolet; */
 }
 .right img{
     /* max-width: 100%; */
