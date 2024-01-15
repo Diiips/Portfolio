@@ -5,7 +5,7 @@ import Socialmedia from '../components/socialmedia'
 import Button from '../components/button';
 const HomeLeftComponent = () =>{
   const downloadcv = {title:"Download CV"}
-  // const contactme = {title:"Explore"}
+  const contactme = {title:"Explore"}
     return(
       
 <div  class="left">
@@ -23,7 +23,7 @@ const HomeLeftComponent = () =>{
 
 <div class="btn">
   <Button {...downloadcv}/>
-  {/* <Button {...contactme}/> */}
+  <Button {...contactme}/>
 </div>
 
 </div>

@@ -33,11 +33,11 @@ export default function Getintouch(){
                 <p>My Email address-</p>
               </div>
               <div class="phone-email-info">
-                <p>shendagedipali73@gmail.com</p>
+                <p><a href="shendagedipali73@gmail.com">shendagedipali73@gmail.com</a> </p>
               </div>
             </div>   
             <div class='getintouch-socialmedia'>
-            {/* <Socialmedia/> */}
+            <Socialmedia/>
             </div> 
           </div>
         </div>

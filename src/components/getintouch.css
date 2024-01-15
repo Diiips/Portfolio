@@ -72,6 +72,10 @@
     font-size: 1.4vw;
     font-weight:bolder;
 }
+.phone-email-info a{
+    color: white;
+    text-decoration: none;
+}
 .getintouch-socialmedia{
     width: 85%;
     /* background-color: pink; */

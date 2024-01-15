@@ -105,17 +105,19 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* padding:1vw 3vw; */
+   
     /* for making blur block-size */
     background: rgba(235,0,255,0.11);
     backdrop-filter: blur(50px);
-    line-height: 4vh;
-    text-align: center;
+    
+    text-align:justify;
     /* text-align:justify; */
 }
 .abt-me-text p{
-    text-align: center;
-    font-size: 3vh;
+     padding:1vh 2.5vh;
+    text-align:center;
+    font-size: 2.5vh;
+    line-height: 2.9vh;
     color: white;
     font-family:'Signika Negative';
     font-weight:lighter;
