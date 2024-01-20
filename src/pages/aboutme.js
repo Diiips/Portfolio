@@ -1,10 +1,16 @@
 import './aboutme.css'
+import React, {useEffect} from 'react';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Aboutme(){
+  useEffect(()=>{
+    AOS.init({duration: 2000});
+  })
     return(
-        <div class="about-me-content-1">
+        <div class="about-me-content-1" data-aos="zoom-in">
         <h1>About Me</h1>
-      <div class="abt-me-box">
+<div class="abt-me-box">
 
         <div class="abt-me-text">
           <p>

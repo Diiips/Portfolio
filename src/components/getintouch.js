@@ -1,10 +1,16 @@
 import './getintouch.css'
 import Socialmedia from '../components/socialmedia';
 import getintouchimg from '../Images/getintouchimg.png'
+import React, {useEffect} from 'react';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Getintouch(){
+  useEffect(()=>{
+    AOS.init({duration: 2000});
+  })
     return(
-        <div class="contactme-left">
+        <div class="contactme-left" data-aos="fade-right">
           <div class="getintouch-intro">
             <div class="getintouch-logo">
               <h1>Get In Touch <img src={getintouchimg} alt="getintouchimg" /></h1>

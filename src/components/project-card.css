@@ -67,16 +67,6 @@
     transition: 1s ease;
     object-fit: cover;
 }
-.project-btn{
-    text-transform: uppercase;
-    background-color: blueviolet;
-    color: aqua;
-    padding: 5%;
-    border: none;
-    outline: none;
-    border-radius: 0.5vw;
-    font-family:'Signika Negative';
-}
 .desc{
     display: flex;
     flex-direction: column;
@@ -104,11 +94,20 @@
 .desc p{
     padding: 2%;
     /* text-align: justify; */
-    margin: 2vw;
+    /* margin: 2vw; */
     color: white;
     text-align: center;
     font-size: 1vw;
 
+}
+.desc Button{
+    margin-top: 0.5vw;
+    width: 7vw;
+    height: 2.5vw;
+    border: none;
+    border: 1px solid white;
+    border-radius: 1vw;
+    /* background:linear-gradient(45deg,#08001f,#30197d); */
 }
 .project:hover .project-info .desc{
     visibility:visible;
@@ -116,7 +115,7 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
-    background:linear-gradient(30deg,#b436f8,#714bef);
+    background:linear-gradient(45deg,#08001f,#30197d);
 }
 
 .project:hover .project-info .title{
@@ -146,7 +145,7 @@
         font-size: 2.5vh;
         margin: 0;
         padding: 0;
-        
+        text-align: center;
     }
     .desc p{
         padding: 2%;

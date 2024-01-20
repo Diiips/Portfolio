@@ -1,10 +1,16 @@
-// import './progressbar.css'
+
 import './progressbar.css'
+import React, {useEffect} from 'react';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Progressbar(props){
   const mystyle = {
     width:`${props.percent}`
   }
+  useEffect(()=>{
+    AOS.init({duration: 1500});
+  })
   return(
     <div className='progressbar-container'>
       <div className='progressbar-info'>
@@ -13,7 +19,7 @@ export default function Progressbar(props){
       </div>
 
         <div className='progressbar-outer'>
-        <div className='progressbar-inner' style={mystyle}>
+        <div className='progressbar-inner' style={mystyle} data-aos="fade-right">
 
         </div>
     </div>

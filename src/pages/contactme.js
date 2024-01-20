@@ -1,4 +1,4 @@
-import Dummyform from "../components/dummyform";
+import { Dummyform } from "../components/dummyform";
 // import Form from "../components/form";
 import Getintouch from "../components/getintouch";
 import './contactme.css'
