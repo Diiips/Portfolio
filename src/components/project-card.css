@@ -77,7 +77,6 @@
 .desc{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     top: 0;
     left: 0;
@@ -87,7 +86,9 @@
     visibility: hidden;
     margin: 0;
     padding: 0;
+    gap: 0;
     font-family:'Signika Negative';
+    /* justify-content: center; */
     /* background-color: pink; */
 }
 .desc h5{
@@ -112,9 +113,8 @@
     border: none;
     border-radius:5vw;
     font-size: 1.3vw;
+    color: white;
     background:linear-gradient(90deg,#2904a1,#5a2cf1);
-    /* border: 1px solid white; */
-    /* background: radial-gradient(circle at 50% 50%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%); */
 }
 .project:hover .project-info .desc{
     visibility:visible;
@@ -160,13 +160,13 @@
         margin: 2vw;
         color: white;
         text-align: center;
-        font-size: 2vh;
+        font-size: 1.8vh;
     }
     .desc Button{
         width: 10vh;
-        height: 2.5vh;
+        height: 3vh;
         border: none;
-        font-size: 1.3vh;
+        font-size: 1.7vh;
         border-radius: 5vh;
         color: white;
         /* border: 1px solid white; */
