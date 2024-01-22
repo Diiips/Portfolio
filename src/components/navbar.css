@@ -9,7 +9,7 @@
     align-items: center;
     justify-content:space-around;
     justify-items: center;
-    border-bottom: 0 2vw solid white;
+    /* border-bottom: 0 2vw solid white; */
     position: fixed;
     z-index: 10;
     box-shadow: 5px 1px 5px rgba(0, 0, 0, 0.5);
