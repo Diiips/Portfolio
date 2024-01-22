@@ -3,7 +3,7 @@ import './project-card.css'
 import React, {useEffect} from 'react';
 import AOS from 'aos'
 import 'aos/dist/aos.css'
-
+import backgroundimg from '../Images/backgroundimg.png'
 export default function ProjectCard(props){
     const projectBtn = { title: "Explore" };
     useEffect(()=>{

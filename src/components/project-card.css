@@ -2,9 +2,15 @@
     display: flex;
     width:25vw;
     height: 15vw;
-    background: radial-gradient(circle at -1% 70%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%);
+    /* border: 0.5px solid #5a2cf1 ; */
+    background:linear-gradient(45deg,#10013f,#3703e3);
+    /* background: radial-gradient(circle at -1% 70%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%); */
+    /* background:radial-gradient(90deg,#2904a1,#5a2cf1); */
     justify-content: space-between;
-    /* background-color:blue ; */
+    /* background-image: url(C:\Users\HP\Desktop\React\Portfolio\Portfolio\src\Images\backgroundimg.png); */
+    /* background-image: url(C:\Users\HP\Desktop\React\Portfolio\Portfolio\src\Images\9153.png); */
+    /* background: radial-gradient(circle at 40% 47%,rgb(50,5,199,100) 10%,rgb(41,4,161,100) 100%); */
+
 }
 
 .project:hover .project-img {
@@ -25,8 +31,9 @@
     height: 100%;
     border-radius: 0px 20% 20% 0px;
     /* background-color: pink; */
-    background: radial-gradient(circle at 0% 50%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%);
-    box-shadow: 0.4vw 0vw  rgb(69, 1, 118);     
+    /* background: radial-gradient(circle at 0% 50%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%); */
+    background:linear-gradient(90deg,#2904a1,#5a2cf1);
+    /* box-shadow: 0.4vw 0vw  rgb(69, 1, 118);      */
     transition: 1s ease;
     position: relative;
     overflow: hidden;
@@ -92,22 +99,22 @@
 }
 
 .desc p{
-    padding: 2%;
-    /* text-align: justify; */
-    /* margin: 2vw; */
+   
+    padding: 3%;
     color: white;
-    text-align: center;
     font-size: 1vw;
-
+    text-wrap:wrap;
+    /* text-align: center; */
 }
 .desc Button{
-    margin-top: 0.5vw;
     width: 7vw;
-    height: 2.5vw;
+    height: 2.2vw;
     border: none;
-    border: 1px solid white;
-    border-radius: 1vw;
-    /* background:linear-gradient(45deg,#08001f,#30197d); */
+    border-radius:5vw;
+    font-size: 1.3vw;
+    background:linear-gradient(90deg,#2904a1,#5a2cf1);
+    /* border: 1px solid white; */
+    /* background: radial-gradient(circle at 50% 50%, rgb(159, 39, 251) 5%, rgba(60,0,102,1) 100%); */
 }
 .project:hover .project-info .desc{
     visibility:visible;
@@ -154,8 +161,15 @@
         color: white;
         text-align: center;
         font-size: 2vh;
-    
     }
-    
-
+    .desc Button{
+        width: 10vh;
+        height: 2.5vh;
+        border: none;
+        font-size: 1.3vh;
+        border-radius: 5vh;
+        color: white;
+        /* border: 1px solid white; */
+        /* background:linear-gradient(45deg,#08001f,#30197d); */
+    }
 }

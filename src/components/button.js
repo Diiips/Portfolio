@@ -1,8 +1,5 @@
 import './button.css'
 
-
-   
-
 export default function Button(props){
 
     return(
@@ -14,3 +11,5 @@ export default function Button(props){
 
     );
 }
+
+   

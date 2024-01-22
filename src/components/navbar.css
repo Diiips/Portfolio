@@ -1,8 +1,10 @@
 .nav
 {
-    width: 100%;
+    width: 100vw;
     height: 7vw;
-    background:linear-gradient(45deg,#08001f,#30197d);
+    /* background:linear-gradient(45deg,#08001f,#30197d); */
+    background:linear-gradient(180deg,#08001f,#180136);
+   
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -80,29 +82,32 @@ background-color: rebeccapurple;
     box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
 } */
 
-@media (max-width:750px){
+@media (max-width:700px){
     .nav{
-        width: 100vw;
-        height: 15vw;
+    width: 100vw;
+    height: 15vw;
     display: flex;
     align-items: center;
     justify-content:space-around;
     margin: 0;
-    padding: 0 100px;
+    /* background-color: pink; */
+    /* padding: 0 10vw; */
     }
     .nav h2{
-        display: flex;
+    display: flex;
     align-items: center;
     justify-content:flex-start;
     font-size: 5vw;
     width: 25%;
     height: 100%;
+    /* background-color: yellow; */
     }
     .nav-2{
         display: none;
         /* margin-top: 1vw;
         background-color: pink;
         padding: 2vw 1vw; */
+        /* background-color: pink; */
     }
     .menu{
         display:block;
@@ -111,6 +116,7 @@ background-color: rebeccapurple;
         cursor: pointer;
        width: 5vw;
        height: 5vw;
+       /* background-color: gold; */
     }
     .menu a{
         width: 5vw;

@@ -2,6 +2,11 @@
     color: #30197d;
     color: #08001f;
     color: #0e0235;
-    color: #2904a1;
-    color: #5a2cf1; /*Get in touch */
+    
+    color: #5a2cf1;/*Get in touch */
+    color: #2904a1; /*form border */
+    background:linear-gradient(90deg,#08001f,#180136);
+    background:linear-gradient(90deg,#2904a1,#5a2cf1);
+    /* #08001f 
+    #180136   */ 
 } 

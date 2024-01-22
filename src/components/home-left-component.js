@@ -19,7 +19,7 @@ const HomeLeftComponent = () =>{
 <h1>DIPALI SHENDAGE</h1>
 <p >
   This is my official portfolio website 
-  to show all details of UI/UX design & web development
+  to show all details of UI/UX design & Web development
 </p>
 
  <div class='homepg-socialmedia'>
@@ -27,8 +27,14 @@ const HomeLeftComponent = () =>{
       </div>
 
 <div class="btn">
+  <a href='https://drive.google.com/file/d/1udCgKaPAnr74N1Ch1qOOXXRXJyEkQWXy/view?usp=sharing' download>
   <Button {...downloadcv}/>
-  <Button {...contactme}/>
+  </a>
+  
+ <a href='https://linktr.ee/diiips?utm_source=linktree_profile_share&ltsid=8e8bc5fd-1879-4b78-90c5-1b1459fe9f2b'>
+       <Button {...contactme}/>
+ </a>
+ 
 </div>
 
 </div>

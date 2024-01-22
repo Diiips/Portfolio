@@ -2,6 +2,9 @@
 // import Skill from '../components/skill';
 import Progressbar from '../components/progressbar';
 import './skill-page.css'
+import React, {useEffect} from 'react';
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 export default function Skillpage(){
    
@@ -41,9 +44,12 @@ export default function Skillpage(){
             percent:"60%"
         },
     ]
+    useEffect(()=>{
+        AOS.init({duration: 2000});
+      })
     return(
-    <div className='skill-page'>
-        <div className='skill-page-title'>
+    <div className='skill-page' data-aos="fade-out">
+        <div className='skill-page-title' data-aos="zoom-in">
             <h1>MY Skills</h1>
         </div>
 

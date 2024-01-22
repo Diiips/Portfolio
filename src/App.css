@@ -1,16 +1,27 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+   
+}
 .App{
-    background:linear-gradient(45deg,#08001f,#30197d);
+    /* width: 100vw; */
+    /* box-sizing: border-box; */
+    background:linear-gradient(90deg,#08001f,#180136);
+    margin: 0;
+    padding: 0;
 }
 
-.navbar{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-    margin: 0;
-    overflow: hidden;
+.main-navbar{
+    /* width: 100vw; */
+    /* display: flex; */
+    /* justify-content: center; */
     /* align-items: center; */
+    padding: 0;
+    margin: 0;
+    /* background-color: pink; */
+    overflow: hidden;
+    align-items: center;
 }
 .homepage{
     width: 100vw;
@@ -60,6 +71,21 @@
     margin: 0;
 }
 @media (max-width:700px){
+    .App{
+        width: 100vw;
+        background:linear-gradient(45deg,#08001f,#110141);
+        margin: 0;
+        padding: 0;
+    }
+    .main-navbar{
+        width: 100vw;
+        /* display: flex; */
+        /* justify-content: center; */
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        /* align-items: center; */
+    }
     .homepage{
         width: 100vw;
         height: 95vh;
@@ -69,10 +95,11 @@
         flex-direction: column;
         align-items:end;
         justify-content:end;
+        /* background-color:gold; */
     }
     .aboutme{
         width: 100vw;
-        height: 100vh;
+        height: max-content;
         display: flex;
         align-items: center;
         justify-content: center;

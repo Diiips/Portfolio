@@ -40,8 +40,9 @@
     overflow: hidden;
 }
 .progressbar-inner{
-    background:linear-gradient(30deg,#b436f8,#714bef);
+    /* background:linear-gradient(30deg,#b436f8,#714bef); */
     /* width: 90%; */
+    background:linear-gradient(45deg,#2904a1,#5a2cf1);
     height: 100%;
     border-radius: 2vw;
     

@@ -14,9 +14,9 @@ import HomePage from './pages/homepage.js';
 
 function App(){
   return (
-    <div className='App'>
+   <div className='App'>
 
-      <div className="navbar">
+      <div className="main-navbar">
       <Navbar/>
     </div>
     <div className="homepage" id = 'home'>

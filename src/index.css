@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Leckerli+One&family=Signika+Negative&display=swap');
 body {
+  width: 100vw;
+  /* width: 100%; */
   margin: 0;
+  padding: 0;
+  /* background-color: red; */
   overflow-x: hidden;
   font-family:'Segoe UI', 'Roboto', 'Oxygen','Ubuntu','Cantarell','Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif ,'Signika Negative' ;
   -webkit-font-smoothing: antialiased;

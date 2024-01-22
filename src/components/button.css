@@ -20,24 +20,38 @@
 } */
 
 .button-component {
-    width: 15vw;
+    width: 13vw;
     height: 4vw;
-    border: 0.3vw solid #2904a1;
+    border: none;
+    /* background-color: #30197d; */
     font-family: 'Signika Negative';
-    background: transparent;
     border-radius: 0.5vw;
-    color: white;
-    font-size: 1.3vw;
+    font-weight: 550;
+    color:transparent;
+    /* color: white; */
+    color:#1d0370;
+    font-size: 1.5vw;
+    background: url('../Images/Rectangle\ 28.png');
+    -webkit-background-clip:border-box;
+    background-position: 0 0;
+    animation: back 30s linear infinite;
+    
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 
 @media (max-width: 700px) {
     .button-component {
         width: 100%;
         /* height:100%; Change to auto for better responsiveness */
+        color:#1b0369;
         height: 100%;
         border-radius: 0.5vh;
-        font-size: 1.6vh;
-        border: 0.3vh solid #2904a1;
+        font-size: 2.2vh;
+        /* border: 0.3vh solid #2904a1; */
         
     }
 }
