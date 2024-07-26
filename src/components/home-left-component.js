@@ -27,7 +27,7 @@ const HomeLeftComponent = () =>{
       </div>
 
 <div class="btn">
-  <a href='https://drive.google.com/file/d/1udCgKaPAnr74N1Ch1qOOXXRXJyEkQWXy/view?usp=sharing' download>
+  <a href='https://drive.google.com/file/d/1-fE1ep1Z_6ok8gVBU7NpUpPVY2paPKcQ/view?usp=drivesdk' download>
   <Button {...downloadcv}/>
   </a>
   

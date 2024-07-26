@@ -13,7 +13,7 @@ export default function Aboutme(){
         <h1>About Me</h1>
 <div class="abt-me-box">
           <p>
-          I am a <span>Computer Science</span> graduate with a robust background in <span>Web Development</span> and <span>UI/UX</span> designing,achieving a commendable CGPA of <span>8.1</span>. In my academic journey, I held leadership roles as the <span>Vice President</span> at ACES,    showcasing organizational skills. I hold certifications in <span>HTML5,CSS3,</span> and <span>JavaScript</span>, emphasizing my commitment to continuous learning.I innovatively designed a highly engaging <span>AR Spark</span> Filter. I'm a <span>versatile</span> professional with technical expertise, leadership skills, and a creative touch.
+          I am a <span>Computer Science</span> graduate with a robust background in <span>Web Development</span> and <span>UI/UX</span> designing, achieving a commendable CGPA of <span>8.31</span>. In my academic journey, I held leadership roles as the <span>Vice President</span> at ACES, showcasing organizational skills. I hold certifications in <span>HTML5, CSS3,</span> and <span>JavaScript</span>, emphasizing my commitment to continuous learning.I innovatively designed a highly engaging <span>AR Spark</span> Filter. I'm a <span>versatile</span> professional with technical expertise, leadership skills, and a creative touch.
           </p>
            
     </div>

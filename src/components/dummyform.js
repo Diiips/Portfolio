@@ -1,7 +1,6 @@
 import './dummyform.css';
 import React,{ useRef , useEffect} from 'react';
 import emailjs from '@emailjs/browser';
-
 import AOS from 'aos'
 import 'aos/dist/aos.css' // Correct import statement
 export const Dummyform = () => {
