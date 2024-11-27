@@ -63,7 +63,7 @@ export default function Mywork(){
         AOS.init({duration: 2000});
       })
     return(
-        <div>
+        <div className='Projectpg'>
             <div className='mywork-title' data-aos="zoom-in">
                 <center>
                  <h1>MY Work</h1>

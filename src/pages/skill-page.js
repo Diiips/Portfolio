@@ -15,7 +15,7 @@ export default function Skillpage(){
         },
         {
             headline:"Javascript",
-            percent:"80%"
+            percent:"75%"
         },
         {
             headline:"Css",
@@ -32,15 +32,15 @@ export default function Skillpage(){
             percent:"90%"
         },
         {
-            headline:"Canva",
-            percent:"80%"
+            headline:"C++",
+            percent:"60%"
         },
         {
-            headline:"Adobe illustrator",
-            percent:"65%"
+            headline:"SQL",
+            percent:"75%"
         },
         {
-            headline:"Sketch",
+            headline:"MongoDB",
             percent:"60%"
         },
     ]

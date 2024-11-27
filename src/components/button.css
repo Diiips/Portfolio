@@ -21,11 +21,11 @@
 
 .button-component {
     width: 13vw;
-    height: 4vw;
+    height: 3.8vw;
     border: none;
     /* background-color: #30197d; */
     font-family: 'Signika Negative';
-    border-radius: 0.5vw;
+    border-radius: 0.35vw;
     font-weight: 550;
     color:transparent;
     /* color: white; */
