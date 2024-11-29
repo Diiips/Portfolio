@@ -33,10 +33,10 @@ This portfolio is powered by modern web development tools and frameworks:
 
 ## ✨ Features  
 - **About Me**: Showcases my education, skills, certifications, and achievements. Includes an Explore Button linking to my Linktree for more insights.
-  **Skills**: Graphical display of my expertise in HTML, CSS, React, Figma, MongoDB, and more.
-  **Projects**: A curated list of my best work with links to live demos and repositories.
-  **Contact**: Easy-to-use form plus links to email, phone, and social media for direct connection.
-  **Download CV**: Instantly access my resume with a single click 
+- **Skills**: Graphical display of my expertise in HTML, CSS, React, Figma, MongoDB, and more.
+- **Projects**: A curated list of my best work with links to live demos and repositories.
+- **Contact**: Easy-to-use form plus links to email, phone, and social media for direct connection.
+- **Download CV**: Instantly access my resume with a single click 
 
 ---
 
