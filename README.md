@@ -5,7 +5,7 @@ Welcome to my official portfolio website! This project showcases my skills, proj
 ---
 
 ## 🔗 Live Demo  
-[[Click here to explore the website](https://diiips.vercel.app/)](#) *()*
+[[Click here to explore the website](https://diiips.vercel.app/)] 
 
 ---
 
