@@ -41,20 +41,15 @@ This portfolio is powered by modern web development tools and frameworks:
 ---
 
 ## 🚀 Portfolio Preview 
-
-### Home Page  
+ 
 ![Home Page](./public/Home_pg.png)
-
-### About Me  
+ 
 ![About Me](./public/About_me.png)
-
-### Projects  
+ 
 ![Projects Page](./public/Projects.png)
-
-### Skills  
+  
 ![Skills Page](./public/Skills.png)
-
-### Contact me  
+  
 ![Contact Page](./public/Contact_me.png)
 
 ---
