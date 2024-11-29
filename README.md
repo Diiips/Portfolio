@@ -1,4 +1,4 @@
-# 🌟 Personal Portfolio Website - **Dipali Shendage**
+# 🌟 Personal Portfolio Website 
 
 Welcome to my official portfolio website! This project showcases my skills, projects, and creativity as a **Web Developer** and **UI/UX Designer**. Built with **React**, this portfolio highlights my technical expertise and serves as a platform to connect and collaborate on exciting opportunities.
 
@@ -53,4 +53,5 @@ This portfolio is powered by modern web development tools and frameworks:
 ![Contact Page](./public/Contact_me.png)
 
 ---
-😊
+If there are any suggestions or feedback, please feel free to share them. 
+Your input is greatly appreciated!😊
