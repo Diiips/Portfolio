@@ -9,6 +9,20 @@ Welcome to my official portfolio website! This project showcases my skills, proj
 
 ---
 
+## 🚀 Portfolio Preview 
+ 
+![Home Page](./public/Home_pg.png)
+ 
+![About Me](./public/About_me.png)
+ 
+![Projects Page](./public/Projects.png)
+  
+![Skills Page](./public/Skills.png)
+  
+![Contact Page](./public/Contact_me.png)
+
+---
+
 ## 📜 About the Project  
 This portfolio project is designed to provide a glimpse into my professional journey as a **Computer Science graduate** with strong experience in **Web Development** and **UI/UX Designing**.  
 
@@ -40,18 +54,5 @@ This portfolio is powered by modern web development tools and frameworks:
 
 ---
 
-## 🚀 Portfolio Preview 
- 
-![Home Page](./public/Home_pg.png)
- 
-![About Me](./public/About_me.png)
- 
-![Projects Page](./public/Projects.png)
-  
-![Skills Page](./public/Skills.png)
-  
-![Contact Page](./public/Contact_me.png)
-
----
 If there are any suggestions or feedback, please feel free to share them. 
 Your input is greatly appreciated!😊
